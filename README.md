@@ -23,7 +23,7 @@ vue项目模块已经帮你配置：
 创建项目
 
 ```shell
-coderwhy create your_project_name
+HCLI create your_project_name
 ```
 
 自动拉取项目模板、安装项目依赖、打开浏览器 `http://localhost:8080/`、自动启动项目
@@ -43,8 +43,8 @@ coderwhy create your_project_name
 ### 创建Vue组件：
 
 ````shell
-coderwhy addcpn YourComponentName # 例如coderwhy add NavBar，默认会存放到src/components文件夹中
-coderwhy addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体文件夹
+HCLI addcpn YourComponentName # 例如HCLI add NavBar，默认会存放到src/components文件夹中
+HCLI addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体文件夹
 ````
 
 
@@ -52,8 +52,8 @@ coderwhy addcpn YourComponentName -d src/pages/home # 也可以指定存放的�
 ### 创建Vue页面，并配置路由
 
 ```shell
-coderwhy addpage YourPageName # 例如coderwhy addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js
-coderwhy addpage YourPageName -d src/views # 也可以指定文件夹，但需要手动集成路由
+HCLI addpage YourPageName # 例如HCLI addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js
+HCLI addpage YourPageName -d src/views # 也可以指定文件夹，但需要手动集成路由
 ```
 
 为什么会创建router.js文件：
@@ -77,8 +77,8 @@ const routes = files.keys().map(key => {
 ### 创建Vuex子模块
 
 ```shell
-coderwhy addstore YourVuexChildModuleName # 例如coderwhy addstore home，默认会放到src/store/modules/home/index.js和types.js
-coderwhy addstore YourVuexChildModuleName -d src/vuex/modules # 也可以指定文件夹
+HCLI addstore YourVuexChildModuleName # 例如HCLI addstore home，默认会放到src/store/modules/home/index.js和types.js
+HCLI addstore YourVuexChildModuleName -d src/vuex/modules # 也可以指定文件夹
 ```
 
 创建完成后，不需要手动配置，已经动态将所有子模块集成进去：
