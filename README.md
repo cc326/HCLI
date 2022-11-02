@@ -5,12 +5,12 @@
 如何安装？
 
 ```shell
-npm install coderwhy -g
+npm install HCLI -g
 ```
 
 ## 创建项目
 
-目前支持Vue，后期会支持React，Angular考虑中~
+目前支持Vue
 
 vue项目模块已经帮你配置：
 
