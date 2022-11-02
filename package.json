@@ -1,0 +1,25 @@
+{
+  "name": "h-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "HCLI": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vue","vuecli","HCLI"],
+  "author": "cc356",
+  "license": "MIT",
+  "homepage": "https://github.com/cc326/HCLI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cc326/HCLI"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8"
+  }
+}
