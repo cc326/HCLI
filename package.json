@@ -1,6 +1,6 @@
 {
-  "name": "h-cli",
-  "version": "1.0.0",
+  "name": "hv-cli",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {

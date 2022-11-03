@@ -5,7 +5,7 @@
 如何安装？
 
 ```shell
-npm install HCLI -g
+npm install hv-cli -g
 ```
 
 ## 创建项目
