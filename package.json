@@ -1,15 +1,19 @@
 {
   "name": "hv-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
-    "HCLI": "index.js"
+    "why": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["vue","vuecli","HCLI"],
+  "keywords": [
+    "vue",
+    "vuecli",
+    "HCLI"
+  ],
   "author": "cc356",
   "license": "MIT",
   "homepage": "https://github.com/cc326/HCLI",
